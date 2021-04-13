@@ -1,0 +1,20 @@
+									Array Declaration
+									
+    Array has to be declared before using it in C Program. Array is nothing but the
+    collection of elements of similar data types.
+    Syntax:
+    <data_type>  array_name  [size1][size2].....[sizen];
+    Syntax Parameter	Significance
+   	Data Type of Each Element of the array
+    Array_name	   Valid variable name
+    size	       Dimensions of the Array
+    Array declaration requirement
+    Requirement	Explanation
+    Data Type	Data Type specifies the type of the array. We can compute the size 
+	required for storing the single cell of array.
+    Valid Identifier	Valid identifier is any valid variable or name given to the array.
+	 Using this identifier name array can be accessed.
+
+									
+									
+									

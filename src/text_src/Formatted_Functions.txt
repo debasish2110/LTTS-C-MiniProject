@@ -1,0 +1,53 @@
+								Formatted Functions
+								
+    
+   The function printf() is used for formatted output to standard output based on a format 
+   specification. The format specification string, along with the data to be output, are 
+   the parameters to the printf() function.
+
+   Syntax:
+  printf (format, data1, data2,……..);
+
+  In this syntax format is the format specification string. This string contains, for each
+  variable to be output, a specification beginning with the symbol % followed by a character
+  called the conversion character.
+  Example: 
+  printf (“%c”, data1);
+  The character specified after % is called a conversion character because it allows one data
+  type to be converted to another type and printed.
+  See the following table conversion character and their meanings.
+
+  Conversion   Character	  Meaning
+   d	      The data is converted to decimal (integer)
+   c	      The data is taken as a character.
+   s	      The data is a string and character from the string , are printed until a NULL,
+              character is reached.
+   f	      The data is output as float or double with a default Precision 6.
+         Symbols  Meaning
+         \n	  For new line (linefeed return)
+         \t	  For tab space (equivalent of 8 spaces)
+
+     Example
+
+     printf (“%c\n”,data1);
+     The format specification string may also have text.
+      Example
+	  printf (“Character is:”%c\n”, data1);
+      The text "Character is:" is printed out along with the value of data1.
+
+    Example with program
+   #include<stdio.h>  
+   #include<conio.h>  
+   Main()  
+  {  
+  Char alphabh="A";  
+  int number1= 55;  
+  float number2=22.34;  
+  printf(“char= %c\n”,alphabh);  
+  printf(“int= %d\n”,number1);  
+  printf(“float= %f\n”,number2);  
+  getch();  
+  clrscr();  
+  retrun 0;  
+  }  
+ 					

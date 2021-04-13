@@ -1,0 +1,37 @@
+									Datatypes
+									
+    Declare (name) a local variable as being one of C's five data types initialise local variables
+    perform simple arithmetic using local variables. Now we have to start looking into the details 
+	of the C language. How easy you find the rest of this section will depend on whether you have 
+	ever programmed before - no matter what the language was. There are a great many ideas common 
+	to programming in any language and C is no exception to this rule.
+
+    So if you haven't programmed before, you need to take the rest of this section slowly and keep
+    going over it until it makes sense. If, on the other hand, you have programmed before you'll be 
+    wondering what all the fuss is about It's a lot like being able to ride a bike!
+
+    The first thing you need to know is that you can create variables to store values in.
+   A variable is just a named area of storage that can hold a single value (numeric or character). 
+   C is very fussy about how you create variables and what you store in them. It demands that you 
+   declare the name of each variable that you are going to use and its type, or class, before you
+   actually try to do anything with it.
+   In this section we are only going to be discussing local variables. These are variables that are
+   used within the current program unit (or function) in a later section we will looking at global 
+   variables - variables that are available to all the program's functions.
+   There are five basic data types associated with variables:
+
+  1. int - integer: a whole number.
+  2. float - floating point value: ie a number with a fractional part.
+  3. double - a double-precision floating point value.
+  4. char - a single character.
+  5. void - valueless special purpose type which we will examine closely in later sections.
+   One of the confusing things about the C language is that the range of values and the amount of 
+   storage that each of these types takes is not defined. This is because in each case the 'natural'
+   choice is made for each type of machine. You can call variables what you like, although it helps 
+   if you give them sensible names that give you a hint of what they're being used for - names like 
+   sum, total, average and so on. If you are translating a formula then use variable names that reflect
+   the elements used in the formula. For example, 2(r (that should read as "2 pi r" but that depends upon
+   how your browser has been set-up) would give local variables names of pi and r. Remember, C programmer
+   tend to prefer short names!
+
+    Note:all C's variables must begin with a letter or a "_" (underscore) character. 								

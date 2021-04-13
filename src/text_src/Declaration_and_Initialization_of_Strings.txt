@@ -1,0 +1,49 @@
+									Declaration and Initialization of string
+									
+    Declaring String Or Character Array in C
+	String data type is not supported in C Programming. String means Collection of Characters to 
+	form particular word. String is useful whenever we accept name of the person, Address of the 
+	person, some descriptive information. We cannot declare string using String Data Type, instead
+	 of we use array of type character to create String.
+	Character Array is Called as ‘String’
+	Character Array is Declared Before Using it in Program
+	Syntax :
+	char String_Variable_name [ SIZE ] ;
+	Examples :
+
+	char city[30];
+	char name[20];
+	char message[50];
+	These are some sample declarations of the String.In the first example we have defined string to
+	 store name of city.Maximum Size to store City is 30 which must be specified inside the Square brackets.
+
+	Explanation of the Example
+
+	Consider –
+
+	char city[30];
+	Point	Explanation
+	Significance	We have declared array of Character [i.e String]
+
+	Size of String	30 Bytes
+	Bound Checking	C Does not Support Bound Checking i.e if we store City with size greater than
+	 30 then C will not give you any error
+	Data Type	char
+	Maximum Size	30	
+	Whenever we declare a String then it will contain garbage values inside it.
+	We have to initialize String or Character array before using it. Process of Assigning
+    some legal default data to String is Called Initialization of String. There are different
+    ways of initializing String in C Programming –
+
+	Initializing Unsized Array of Character
+	Initializing  String Directly
+	Initializing  String Using Character Pointer
+	Way 1 : Unsized Array and Character
+
+	Unsized Array : Array Length is not specified while initializing character array using this approach
+	Array length is Automatically calculated by Compiler
+	Individual Characters are written inside Single Quotes , Separated by comma to form a list of characters.
+	 Complete list is wrapped inside Pair of Curly braces
+	Please Note : NULL Character should be written in the list because it is ending or terminating character
+	 in the String/Character Array
+	char name [] = {'P','R','I','T','E','S','H','\0'};								

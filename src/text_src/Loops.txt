@@ -1,0 +1,11 @@
+											Loop Control:Introduction
+
+    It is a tedious process to perform such kind of tasks repeatedly with pen and pencil. But with computer programming 
+	languages and packages, the tasks becomes easy, accurate and fast. A loop is defined as a block of statements, which 
+	are repeatedly executed for a certain number of times.
+	
+								Chapter outline:
+								
+								1.  For and Nested For loop
+								2.  While and Do While loop
+												

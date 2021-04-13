@@ -1,0 +1,13 @@
+                                        Strings -Introduction
+
+    A program contains statements and statements are build with words that has specific meaning to be understood by compiler.
+	A sequence of characters, digits and symbols enclosed with double quatation marks is called a strings.
+	String is defined as an array of character. Every string is terminated with '\0' (NULL) character. its value is zero.
+	A example of string is as follows:
+	char name []={'I','N','D','I','A','\0');
+	         
+			 
+			                           Chapter outline:
+						 1. Declaration and Initialization of String
+		          			 2. String Standard Functions
+					         3. Applications of Strings    

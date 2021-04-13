@@ -1,0 +1,18 @@
+									Identifiers
+			
+	Identifiers are used as the general terminology for the names of variables, functions and arrays.
+	These are user defined names consisting of arbitrarily long sequence of letters and digits with 
+	either a letter or the underscore(_) as a first character.
+    There are certain rules that should be followed while naming  c identifiers:
+    
+   1. They must begin with a letter or underscore(_).
+   2. They must consist of only letters, digits, or underscore. No other special character is allowed.
+   3. It should not be a keyword.
+   4. It must not contain white space.
+   5. It should be up to 31 characters long as only first 31 characters are significant.
+   Some examples of c identifiers:
+
+   Name	      -  Remark
+   A9	      -  Valid
+   Temp.var	  -  Invalid as it contains special character other than the underscore
+   void	      -  Invalid as it is a keyword								

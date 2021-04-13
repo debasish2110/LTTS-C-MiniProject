@@ -1,0 +1,98 @@
+										While and Do while Loop
+										
+           while loop
+          The syntax of a while loop is:
+          while (testExpression) 
+           {
+         //codes 
+           }
+          where, testExpression checks the condition is true or false before each loop.  
+         How while loop works?
+         The while loop evaluates the test expression.
+          If the test expression is true (nonzero), codes inside the body of while loop
+		  are exectued. The test expression is evaluated again. The process goes on until 
+		  the test expression is false.
+         When the test expression is false, the while loop is terminated.
+         Example #1: while loop
+        // Program to find factorial of a number
+       // For a positive integer n, factorial = 1*2*3...n
+      #include <stdio.h>
+      int main()
+      {
+      int number;
+      long long factorial;
+      printf("Enter an integer: ");
+      scanf("%d",&number);
+
+      factorial = 1;
+
+     // loop terminates when number is less than or equal to 0
+     while (number > 0)
+     {
+        factorial *= number;  // factorial = factorial*number;
+        --number;
+     }
+
+     printf("Factorial= %lld", factorial);
+
+    return 0;
+     }
+
+ 
+   Output
+
+   Enter an integer: 5
+   Factorial = 120
+   To learn more on test expression (when test expression is evaluated to
+    nonzero (true) and 0 (false)), check out relational and logical operators.
+
+   do...while loop
+   The do..while loop is similar to the while loop with one important difference.
+    The body of do...while loop is executed once, before checking the test expression. 
+	Hence, the do...while loop is executed at least once.
+
+   do...while loop Syntax
+   do
+   {
+   // codes
+   }
+   while (testExpression);
+   How do...while loop works?
+   The code block (loop body) inside the braces is executed once.
+   Then, the test expression is evaluated. If the test expression is true, the loop body
+    is executed again. This process goes on until the test expression is evaluated to 0 (false).
+
+   When the test expression is false (nonzero), the do...while loop is terminated.
+
+    do while loop flowchart in C programming
+
+   Example #2: do...while loop
+   // Program to add numbers until user enters zero
+
+  #include <stdio.h>
+  int main()
+  {
+    double number, sum = 0;
+
+    // loop body is executed at least once
+    do
+    {
+        printf("Enter a number: ");
+        scanf("%lf", &number);
+        sum += number;
+    }
+    while(number != 0.0);
+
+    printf("Sum = %.2lf",sum);
+
+    return 0;
+   }
+   Output
+
+Enter a number: 1.5
+Enter a number: 2.4
+Enter a number: -3.4
+Enter a number: 4.2
+Enter a number: 0
+Sum = 4.70
+ 										

@@ -1,0 +1,90 @@
+									Goto and Switch statements
+									
+                 Syntax of goto statement
+                 goto label;
+                 ... .. ...
+                 ... .. ...
+                 ... .. ...
+                 label: 
+                 statement;
+                 How goto statement works?
+                 Example: goto Statement
+               // Program to calculate the sum and average of maximum of 5 numbers
+              // If user enters negative number, the sum and average of previously 
+			  entered positive number is displayed
+
+            # include <stdio.h>
+            int main()
+            {
+
+          const int maxInput = 5;
+         int i;
+    double number, average, sum=0.0;
+    
+    for(i=1; i<=maxInput; ++i)
+    {
+        printf("%d. Enter a number: ", i);
+        scanf("%lf",&number);
+
+    // If user enters negative number, flow of program moves to label jump
+        if(number < 0.0)
+            goto jump;
+
+        sum += number; // sum = sum+number;
+    }
+
+    jump:
+
+    average=sum/(i-1);
+    printf("Sum = %.2f\n", sum);
+    printf("Average = %.2f", average);
+
+    return 0;
+}
+
+ 
+ 
+    Example: switch Statement
+    // Program to create a simple calculator
+   // Performs addition, subtraction, multiplication or division depending the input from user
+
+   # include <stdio.h>
+
+   int main() {
+
+    char operator;
+    double firstNumber,secondNumber;
+
+    printf("Enter an operator (+, -, *, /): ");
+    scanf("%c", &operator);
+
+    printf("Enter two operands: ");
+    scanf("%lf %lf",&firstNumber, &secondNumber);
+
+    switch(operator)
+    {
+        case '+':
+            printf("%.1lf + %.1lf = %.1lf",firstNumber, secondNumber, firstNumber+secondNumber);
+            break;
+
+        case '-':
+            printf("%.1lf - %.1lf = %.1lf",firstNumber, secondNumber, firstNumber-secondNumber);
+            break;
+
+        case '*':
+            printf("%.1lf * %.1lf = %.1lf",firstNumber, secondNumber, firstNumber*secondNumber);
+            break;
+
+        case '/':
+            printf("%.1lf / %.1lf = %.1lf",firstNumber, secondNumber, firstNumber/firstNumber);
+            break;
+
+        // operator is doesn't match any case constant (+, -, *, /)
+        default:
+            printf("Error! operator is not correct");
+    }
+
+    return 0;
+    }
+
+ 							

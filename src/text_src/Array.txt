@@ -1,0 +1,14 @@
+					Data Structure: Array- Introduction
+
+    An array is a very popular and useful data structure used to store data elements in memory locations.
+	More than one elements is stored in a sequence, so it is called composite data structure. An array 
+	is a linear and homogeneous data structure. An array permits homogeneous structure.
+	
+	
+					Chapter outline:
+					1. Array Declaration
+					2. Array Initialization
+					3. Array Terminology
+					4. One_Dimensional_Array 
+					5. Two_Dimensional_Array 
+											

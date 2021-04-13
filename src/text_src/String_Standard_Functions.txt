@@ -1,0 +1,37 @@
+									String Standard function
+									
+    The <string.h> Standard Header[edit]
+    Because programmers find raw strings cumbersome to deal with, they wrote the code in the <string.h> library.
+    It represents not a concerted design effort but rather the accretion of contributions made by various
+    authors over a span of years.
+    First, three types of functions exist in the string library:
+    the mem functions manipulate sequences of arbitrary characters without regard to the null character;
+	the str functions manipulate null-terminated sequences of characters;
+	the strn functions manipulate sequences of non-null characters.
+    The more commonly-used string functions[edit]
+	The nine most commonly used functions in the string library are:
+	strcat - concatenate two strings
+	strchr - string scanning operation
+	strcmp - compare two strings
+	strcpy - copy a string
+	strlen - get string length
+	strncat - concatenate one string with part of another
+	strncmp - compare parts of two strings
+	strncpy - copy part of a string
+	strrchr - string scanning operation
+
+	The less commonly-used string functions[edit]
+	The less-used functions are:
+	memchr - Find a byte in memory
+	memcmp - Compare bytes in memory
+	memcpy - Copy bytes in memory
+	memmove - Copy bytes in memory with overlapping areas
+	memset - Set bytes in memory
+	strcoll - Compare bytes according to a locale-specific collating sequence
+	strcspn - Get the length of a complementary substring
+	strerror - Get error message
+	strpbrk - Scan a string for a byte
+	strspn - Get the length of a substring
+	strstr - Find a substring
+	strtok - Split a string into tokens
+	strxfrm - Transform string									

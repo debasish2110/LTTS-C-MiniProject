@@ -1,0 +1,38 @@
+									One Dimensional Array
+									
+     The declaration form of one dimensional array is
+     Data_type array_name [size];
+     The following declares an array called ‘numbers’ to hold 5 integers and 
+	 sets the first and last elements. C arrays are always indexed from 0. So
+	 the first integer in ‘numbers’ array is numbers[0] and the last is numbers[4].
+
+     int numbers [5];
+     numbers [0] = 1;       // set first element
+     numbers [4] = 5;       // set last element
+    This array contains 5 elements. Any one of these elements may be referred to by
+    giving the name of the array followed by the position number of the particular 
+	element in square brackets ([]). The first element in every array is the zeroth
+	element.Thus, the first element of array ‘numbers’is referred to asnumbers[ 0 ],
+	the second element of array ‘numbers’is referred to as numbers[ 1 ], the fifth
+    element of array ‘numbers’is referred to as numbers[ 4 ], and, in general, the
+    n-th element of array ‘numbers’is referred to as numbers[ n – 1 ].
+    C – 1D ARRAY EXAMPLE PROGRAM :
+
+
+    #include<stdio.h>
+    #include<conio.h>
+    int main()
+    {
+   int i,number[5];
+   clrscr();
+   printf(“Enter 5 number \n”);
+   for(i=0;i<5;i++)
+	scanf(“%d”,&numbers[i]);
+	printf(“Array elements are \n”);
+	for(i=0;i<5;i++)
+	printf(“%d\n”,numbers[i]);
+	getch();
+	return 0;
+	}
+	
+										

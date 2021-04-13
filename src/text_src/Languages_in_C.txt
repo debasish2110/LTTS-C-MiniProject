@@ -1,0 +1,60 @@
+
+    There are mainly three tyoes of languages in C are:
+    
+    * Machine-Language:
+    
+      Machine code or machine language is a set of instructions executed directly by a computer's central processing unit (CPU).
+	  Each instruction performs a very specific task, such as a load, a jump, or an ALU operation on a unit of data in a CPU 
+	  register or memory. Every program directly executed by a CPU is made up of a series of such instructions. (The phrase 
+	  'directly executed' needs some qualification: machine code is by definition the lowest level of programming detail visible
+	  to the programmer, but internally many processors use microcode or optimise and transform machine code instructions into 
+	  sequences of micro-ops in a sophisticated way.)
+      Numerical machine code (i.e., not assembly code) may be regarded as the lowest-level representation of a compiled or assembled
+	  computer program or as a primitive and hardware-dependent programming language. While it is possible to write programs directly
+	  in numerical machine code, it is tedious and error prone to manage individual bits and calculate numerical addresses and 
+	  constants manually. For this reason, programs are almost never written directly in machine code in modern contexts. Three 
+	  exceptions are: for low level debugging, program patching, and assembly language disassembly (which would be called for in the
+	  absence of assembly source code, when only the machine language object code is available).
+      All practical programs today are written in higher-level languages or assembly language. The source code is then translated to 
+	  executable machine code by utilities such as compilers, assemblers, and linkers, with the important exception of interpreted 
+	  programs,[1] which are not translated into machine code. However, the interpreter itself, which may be seen as an executor or 
+	  processor, performing the instructions of the source code, typically consists of directly executable machine code (generated 
+	  from assembly or high-level language source code).
+	  
+	 * Assembely-Language:
+	 
+	  An assembly (or assembler) language, often abbreviated asm, is a low-level programming language for a computer, or other 
+	  programmable device, in which there is a very strong (but often not one-to-one) correspondence between the language and the 
+	  architecture's machine code instructions. Each assembly language is specific to a particular computer architecture. In contrast,
+	  most high-level programming languages are generally portable across multiple architectures but require interpreting or compiling. 
+	  Assembly language may also be called symbolic machine code.
+	  Assembly language is converted into executable machine code by a utility program referred to as an assembler. The conversion 
+	  process is referred to as assembly, or assembling the source code. Assembly time is the computational step where an assembler is
+	  run.
+      Assembly language uses a mnemonic to represent each low-level machine instruction or opcode, typically also each architectural .
+	  register, flag, etc. Many operations require one or more operands in order to form a complete instruction and most assemblers can
+	  take expressions of numbers and named constants as well as registers and labels as operands, freeing the programmer from tedious 
+	  repetitive calculations. Depending on the architecture, these elements may also be combined for specific instructions or addressing
+	  modes using offsets or other data as well as fixed addresses. Many assemblers offer additional mechanisms to facilitate program 
+	  development, to control the assembly process, and to aid debugging.
+	  
+	 * High-level Language:
+	  
+	  In computer science, a high-level programming language is a programming language with strong abstraction from the details of the 
+	  computer. In comparison to low-level programming languages, it may use natural language elements, be easier to use, or may automate 
+	  (or even hide entirely) significant areas of computing systems (e.g. memory management), making the process of developing a program 
+	  simpler and more understandable relative to a lower-level language. The amount of abstraction provided defines how "high-level" a 
+	  programming language is.
+      In the 1960s, low-level programming languages using a compiler were commonly called autocodes. Examples of autocodes are COBOL and
+	  Fortran.
+      The first high-level programming language designed for computers was Plankalkül, created by Konrad Zuse. However, it was not
+	  implemented in his time, and his original contributions were (due to World War II) largely isolated from other developments, although 
+	  it influenced Heinz Rutishauser's language "Superplan" (and to some degree also Algol). The first really widespread high-level language
+      was Fortran, a machine independent development of IBM's earlier Autocode systems. Algol, defined in 1958 and 1960, by committees of 
+	  European and American computer scientists, introduced recursion as well as nested functions under lexical scope. It was also the first 
+	  language with a clear distinction between value and name-parameters and their corresponding semantics.[5] Algol also introduced several 
+	  structured programming concepts, such as the while-do and if-then-else constructs and its syntax was the first to be described by a 
+	  formal method, Backus–Naur form (BNF). During roughly the same period Cobol introduced records (also called structs) and Lisp introduced
+	  a fully general lambda abstraction in a programming language for the first time.
+
+ 

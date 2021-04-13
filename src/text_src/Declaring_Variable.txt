@@ -1,0 +1,42 @@
+									Declaring Variables
+									
+    A variable declaration provides assurance to the compiler that there exists a variable with 
+	the given type and name so that the compiler can proceed for further compilation without 
+	requiring the complete detail about the variable. A variable definition has its meaning at 
+	the time of compilation only, the compiler needs actual variable definition at the time of 
+	linking the program.
+    A variable declaration is useful when you are using multiple files and you define your variable
+    in one of the files which will be available at the time of linking of the program. You will use
+    the keyword extern to declare a variable at any place. Though you can declare a variable multiple
+    times in your C program, it can be defined only once in a file, a function, or a block of code.
+   Example
+   Try the following example, where variables have been declared at the top, but they have been defined
+    and initialized inside the main function -
+
+   
+   #include <stdio.h>
+
+   // Variable declaration:
+   extern int a, b;
+   extern int c;
+   extern float f;
+
+   int main () {
+
+   /* variable definition: */
+   int a, b;
+   int c;
+   float f;
+ 
+   /* actual initialization */
+   a = 10;
+   b = 20;
+  
+   c = a + b;
+   printf("value of c : %d \n", c);
+
+   f = 70.0/3.0;
+   printf("value of f : %f \n", f);
+ 
+   return 0;
+}																	

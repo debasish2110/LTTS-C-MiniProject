@@ -1,0 +1,55 @@
+						Break and Continuos Statements
+										
+   C break statement terminates any type of loop e.g., while loop, do while loop or for loop.
+   The break statement terminates the loop body immediately and passes control to the next
+   statement after the loop.
+   The break statement is only meaningful when you put it inside a loop body, and also in 
+   the switch case statement.
+   We often use the break statement with the if statement, which specifies the condition to
+   terminate the loop.
+   The following example illustrates how to use the break statement:
+
+   #include <stdio.h>
+ 
+  int main() {
+   char key;
+ 
+   printf("Press E to exit:\n");
+   while(1) {
+      scanf("%c", &key);
+      // if E or e, exit
+      if (key == 'E' ||  key == 'e')
+          break;
+   }
+   printf("Goodbye!\n");
+   }
+
+  #include <stdio.h>
+  #include <stdlib.h>
+ 
+   #define SIZE 10
+ 
+  int main()
+  {
+    int haystack[SIZE] = {1, 3, 2, 4, 7, 6, 9, 5, 8, 0};
+ 
+    int needle;
+ 
+    printf("Enter a number (0-9) to see its position:");
+    scanf("%d",&needle);
+ 
+    int i;
+    for (i = 0; i < SIZE; i++)
+    {
+        if (needle != haystack[i])
+        {
+            printf("Finding at position %d: %d\n", i, haystack[i]);
+            continue;
+        }
+ 
+        printf("Number %d found at position %d\n", needle,i);
+        break;
+    }
+    return 0;
+   } 
+   	

@@ -1,0 +1,13 @@
+		                     
+							 Type of Tokens
+							 
+     In a passage of text, individual words and punctuation marks are called tokens or lexical units.
+	 Similarly, the smallest individual unit in a c program is known as a token or a lexical unit. 
+	 C tokens can be classified as follows:
+
+                              1. Keywords
+                              2. Identifiers
+                              3. Constants
+                              4. Strings
+                              5. Special Symbols
+                              6. Operators				 

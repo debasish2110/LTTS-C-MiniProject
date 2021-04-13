@@ -1,16 +1,16 @@
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
-#include"src/Suggestion.cpp"
-#include"src/intro.cpp"
-#include"src/cdec.cpp"
-#include"src/operandexp.cpp"
-#include"src/inandout.cpp"
-#include"src/decstat.cpp"
-#include"src/loops.cpp"
-#include"src/array.cpp"
-#include"src/string.cpp"
-#include "inc/myHeader.h"
+#include"src/Suggestion.c"
+#include"src/intro.c"
+#include"src/cdec.c"
+#include"src/operandexp.c"
+#include"src/inandout.c"
+#include"src/decstat.c"
+#include"src/loops.c"
+#include"src/array.c"
+#include"src/string.c"
+#include"inc/myHeader.h"
 void Cover_Page();
 void Index();
 void Introduction();
@@ -22,7 +22,7 @@ void Loops();
 void Array();
 void String();
 void Suggestion();
-main()                                                   // starting of main
+void main()                                                   // starting of main
 {
 	system("color 0A");
 	int choice;
@@ -45,7 +45,7 @@ main()                                                   // starting of main
 	  system("cls");
       FILE *p;
 	 char a[200];
-	 p=fopen("Cover_Page.txt","r");
+	 p=fopen("src/text_src/Cover_Page.txt","r");
 		while(!feof(p))
 		{
 	    fgets(a,200,p);
@@ -69,7 +69,7 @@ main()                                                   // starting of main
     	system("cls");
     	FILE *p;
     	char a[200];
-    	p=fopen("Index.txt","r");
+    	p=fopen("src/text_src/Index.txt","r");
     	while(!feof(p))
     	{
     		fgets(a,200,p);
@@ -112,7 +112,7 @@ fclose(p);
 	  system("cls");
 	  FILE *p;
 	 char a[1000];
-	 p=fopen("Introduction.txt","r");
+	 p=fopen("src/text_src/Introduction.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,1000,p);
@@ -143,7 +143,7 @@ fclose(p);
 	  system("cls");
    	  FILE *p;
 	 char a[500];
-	 p=fopen("C_Declaration.txt","r");
+	 p=fopen("src/text_src/C_Declaration.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -176,7 +176,7 @@ fclose(p);
 	  system("cls");
    	FILE *p;
 	 char a[200];
-	 p=fopen("Operators_and_Expressions.txt","r");
+	 p=fopen("src/text_src/Operators_and_Expressions.txt","r");
 		while(!feof(p))
 		{
 		 fgets(a,200,p);
@@ -208,7 +208,7 @@ fclose(p);
 	  system("cls");
       FILE *p;
 	 char a[1000];
-	 p=fopen("Input_and_Output.txt","r");
+	 p=fopen("src/text_src/Input_and_Output.txt","r");
 		while(!feof(p))
 	 {
 		fgets(a,1000,p);
@@ -238,7 +238,7 @@ fclose(p);
 	  system("cls");
      FILE *p;
 	 char a[500];
-	 p=fopen("Decision_Statements.txt","r");
+	 p=fopen("src/text_src/Decision_Statements.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -269,7 +269,7 @@ fclose(p);
 	  system("cls");
       FILE *p;
 	 char a[500];
-	 p=fopen("Loops.txt","r");
+	 p=fopen("src/text_src/Loops.txt","r");
 		while(!feof(p))
 		{
 	  fgets(a,500,p);
@@ -298,7 +298,7 @@ fclose(p);
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Array.txt","r");
+	 p=fopen("src/text_src/Array.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -333,7 +333,7 @@ fclose(p);
 	  system("cls");
       FILE *p;
 	 char a[500];
-	 p=fopen("String.txt","r");
+	 p=fopen("src/text_src/String.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);

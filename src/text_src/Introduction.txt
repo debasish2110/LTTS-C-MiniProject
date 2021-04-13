@@ -1,0 +1,23 @@
+                                               Introduction To C
+					
+    Software is a collection of programs and a program is a collection of instructions given to the computer. 
+    Development of software is a stepwise process. Before developing a software, number of processes are done.
+    The first is to understand the user requirements. Problem analysis arises during the requirement phase of 
+    software develpoment. Problem analysis is done for obtaining the user requirements and to determine the 
+    and output of the program.
+
+    For solving the problem, an "algorithm" is implemented. Algorithm is a seqence of steps that gives method
+    of solving a problem. This "algorithm" creates the logic of program. On the basis of this "algorithm", 
+    program code is written. The steps before writing program code are as-
+                                   
+        User requirements >> Problem analysis >> Input and Output >> Designing algorithm >> Program coding  
+				         
+                            Process of program development	
+									
+		               Chapter Outline:
+			                    
+                      1. The First C Program
+                      2. Header Files
+			          3. Languages in C
+		              4. Advantages of C 									          
+				                        

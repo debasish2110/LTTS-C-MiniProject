@@ -1,0 +1,13 @@
+                                        Operators and Expressions-Introduction
+    
+   In our day to day life, we perform numerous operations on data with different operators. In order to perform
+   different kinds of operations ,C uses different operators. using various operators in C, one can link
+   variables , constants. An operands is a data item on which operators perform operation . C is rich in use of 
+   different operators.
+   
+   
+                            Chapter outline:
+                            1. Arithmetic Operators
+                            2. Relational Operators
+                            3. Logical Operators
+                            4. Bitwise Operators

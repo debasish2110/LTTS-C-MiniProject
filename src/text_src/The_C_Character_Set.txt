@@ -1,0 +1,47 @@
+                         
+                        Character Set In C
+ 
+      character:- It denotes any alphabet, digit or special symbol used to represent information. 
+      
+	  Use:- These characters can be combined to form variables. C uses constants, variables, 
+	        operators, keywords and expressions as building blocks to form a basic C program. 
+
+      Character set:- The character set is the fundamental raw material of any language and 
+	                  they are used to represent information. Like natural languages, computer
+					  language will also have well defined character set, which is useful to
+					  build the programs. 
+
+      The characters in C are grouped into the following two categories:
+
+       1.  Source character set
+            a. Alphabets
+            b. Digits
+            c. Special Characters
+            d. White Spaces
+
+       2.   Execution character set
+            a. Escape Sequence
+
+        Source character set
+
+             ALPHABETS
+            Uppercase letters                 A-Z
+            Lowercase letters                 a-z
+
+          DIGITS     0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+         SPECIAL CHARACTERS
+
+       ~  tilde        %  percent sign   |  vertical bar    @   at symbol            
+       _  underscore   -  minus sign     >  greater than    ^   caret      
+	   #  number sign  =   equal to      & ampersand        $   dollar sign 
+	   /  slash        (   left parenthesis                 *   asterisk    
+	   \  back slash   )  right parenthesis                 '   apostrophe     
+	   :  colon        [  left bracket                      "   quotation mark
+	   ;  semicolon    ]  right bracket                     !   exclamation mark 
+	   ,  comma        {  left flower braces                ?   Question mark   
+	   .  dot operator }  right flower brace                +   plus sign     
+	   <  less than
+
+
+                         

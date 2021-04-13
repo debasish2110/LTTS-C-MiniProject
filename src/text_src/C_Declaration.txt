@@ -1,0 +1,19 @@
+                                The C Declaration-Introduction
+    
+	The programming language are designed to support certain kind of data, such as numbers, characters,strings,etc.
+	to get useful output known as result/information. Data consists of digits alphabets and symbols.
+	
+	A programm should support these data types for getting the required outputs known as informations.
+	A program is a set of statements which perform a specific task, executive by users in a sequentials form.
+	These statements are  formed using certains words and symbols according to rules known as syntax rules or
+	grammer of language. Every program must accurately follow the syntax rules supported by language.
+	                          
+							  Chapter outline:
+							  
+							  1. The C Character Set
+							  2. Type of Tokens
+							  3. Identifiers 
+							  4. Data Type
+							  5. Declaring Variable 
+							  
+							                                

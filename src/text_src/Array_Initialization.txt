@@ -1,0 +1,35 @@
+						Array Initialization
+						
+    Although it is not possible to assign to all elements of an array at once using 
+	an assignment expression, it is possible to initialize some or all elements of
+	 an array when the array is defined. The syntax looks like this:
+
+   	int a[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    The list of values, enclosed in braces {}, separated by commas, provides the 
+	initial values for successive elements of the array.
+    (Under older, pre-ANSI C compilers, you could not always supply initializers for 
+	``local'' arrays inside functions; you could only initialize ``global'' arrays, 
+	those outside of any function. Those compilers are now rare, so you shouldn't have
+	 to worry about this distinction any more. We'll talk more about local and global 
+	 variables later in this chapter.)
+    If there are fewer initializers than elements in the array, the remaining elements 
+	are automatically initialized to 0. For example,
+	int a[10] = {0, 1, 2, 3, 4, 5, 6};
+    would initialize a[7], a[8], and a[9] to 0. When an array definition includes an
+    initializer, the array dimension may be omitted, and the compiler will infer the 
+	dimension from the number of initializers. For example,
+	int b[] = {10, 11, 12, 13, 14};
+    would declare, define, and initialize an array b of 5 elements (i.e. just as if 
+	you'd typed int b[5]). Only the dimension is omitted; the brackets [] remain to 
+	indicate that b is in fact an array.
+    In the case of arrays of char, the initializer may be a string constant:
+	char s1[7] = "Hello,";
+	char s2[10] = "there,";
+	char s3[] = "world!";
+    As before, if the dimension is omitted, it is inferred from the size of the string 
+	initializer. (We haven't covered strings in detail yet--we'll do so in chapter 8--but 
+	it turns out that all strings in C are terminated by a special character with the value 0.
+    Therefore, the array s3 will be of size 7, and the explicitly-sized s1 does need to be of
+	size at least 7. For s2, the last 4 characters in the array will all end up being this 
+	zero-value character.)
+						

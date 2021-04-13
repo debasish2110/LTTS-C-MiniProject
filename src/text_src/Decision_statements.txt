@@ -1,0 +1,14 @@
+                                        Decision statements- Introduction
+                                        
+    Decision making statements in a programming language helps the programmer to transfer the control from one part
+	to other parts of program. These decision making statements facilitiate the programmer in determining flow of control.
+	The process is nothing but execution of one and more instruction sequentially in order in which they come into sight.
+	In a real time applications, there are a number of situation where one has to change order of execution of statements
+	based on condition.
+	
+	
+	                             Chapter outline:
+								 1. If and Else statements
+								 2. Break and Continue Statements
+								 3. Goto and Switch Statements
+								 

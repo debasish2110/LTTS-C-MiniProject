@@ -1,0 +1,28 @@
+									Unformatted Functions
+									
+     There are several standard library functions available in this category - 
+	 those that can deal with a single character and those that can deal with a
+	 string of characters. The various unformatted input/output functions in C.
+     Unformatted Input/Output Functions with Example: C Language
+     getchar( ) and putchar( )
+
+     Even though getchar( ) and putchar( ) looks like functions, they are not.
+	 They are the macros that are used to read and display a character. 
+	 The syntax to read a character shown below:
+     “ch = getchar( )” will reads a character from the keyboard and copy it 
+	 into memory area which is identified by the variable ch. No arguments 
+	 are required for this macro. Once the character is entered from the keyboard,
+	 the user has to press Enter key.
+     “putchar(ch)” outputs a character stored in a variable on the monitor.
+	  The variable should be passed as parameter as shown in the above syntax.
+
+
+                                main()
+                                {
+                                char ch;
+                                clrscr();
+                                ch = getchar();
+                                putchar(ch);
+                                getch();
+                                }
+									

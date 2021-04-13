@@ -1,0 +1,14 @@
+                                      Input and Output in C- Introduction
+    
+	Reading input data, processing it and displaying the result are the three tasks of any problem. The data is read
+	from input devices such as a keywords. operations on data are performed on the basis of operators, the result is 
+	displayed on the screen.All the three tasks are importants. The input/output function is of two types:1) formatted
+	function, 2) unformatted function.
+	 
+	 
+	 
+	            		Chapter outline:
+	            				
+                       1. Formatted Functions
+	            	   2. Unformatted Functions
+				       3. Commonly Used Library Function          
