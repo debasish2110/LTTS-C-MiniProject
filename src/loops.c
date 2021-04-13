@@ -13,7 +13,7 @@ void For_and_Nested_For_loop()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("For_and_Nested_For_loop.txt","r");
+	 p=fopen("src/text_src/For_and_Nested_For_loop.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -54,7 +54,7 @@ void For_and_Nested_For_loop()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("While_and_Do_While_loop.txt","r");
+	 p=fopen("src/text_src/While_and_Do_While_loop.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);

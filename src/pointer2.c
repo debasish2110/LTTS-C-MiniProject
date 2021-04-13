@@ -9,7 +9,7 @@ main()
 	int shubham=8;
 	callbyvalue(shivam);
 	passbyrefrence(&shubham);
-	printf("shivam is now=%d \nshubham is now =%d \n",shivam,shubham);
+	printf("Debashish is now=%d \nhis brother is now =%d \n",shivam,shubham);
 }
 void callbyvalue(int x)
 {

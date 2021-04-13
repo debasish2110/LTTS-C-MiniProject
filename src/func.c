@@ -3,7 +3,7 @@ int func_intro(),funcdef(),retrn(),typefunc(),call();
 func_intro()
 {
 	FILE *qa;
-	qa=fopen("func intro.txt","r+");
+	qa=fopen("src/text_src/func intro.txt","r+");
 	if(qa==NULL)
 	{
 		printf("file cant be opened");
@@ -17,7 +17,7 @@ func_intro()
 funcdef()
 {
 	FILE *qb;
-	qb=fopen("funcdef.txt","r+");
+	qb=fopen("src/text_src/funcdef.txt","r+");
 	if(qb==NULL)
 	{
 		printf("file cant be opened");
@@ -31,7 +31,7 @@ funcdef()
 retrn()
 {
 	FILE *qc;
-	qc=fopen("retrn.txt","r+");
+	qc=fopen("src/text_src/retrn.txt","r+");
 	if(qc==NULL)
 	{
 		printf("file cant be opened");
@@ -45,7 +45,7 @@ retrn()
 typefunc()
 {
 	FILE *qd;
-	qd=fopen("typefunc.txt","r+");
+	qd=fopen("src/text_src/typefunc.txt","r+");
 	if(qd==NULL)
 	{
 		printf("file cant be opened");
@@ -59,7 +59,7 @@ typefunc()
 call()
 {
 	FILE *qe;
-	qe=fopen("call.txt","r+");
+	qe=fopen("src/text_src/call.txt","r+");
 	if(qe==NULL)
 	{
 		printf("file cant be opened");

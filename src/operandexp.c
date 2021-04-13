@@ -19,7 +19,7 @@ void Arithmetic_Operators()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Arithmetic_Operators.txt","r");
+	 p=fopen("src/text_src/Arithmetic_Operators.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -82,7 +82,7 @@ void Arithmetic_Operators()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Relational_Operators.txt","r");
+	 p=fopen("src/text_src/Relational_Operators.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -153,7 +153,7 @@ void Arithmetic_Operators()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Logical_Operators.txt","r");
+	 p=fopen("src/text_src/Logical_Operators.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -215,7 +215,7 @@ void Arithmetic_Operators()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Bitwise_Operators.txt","r");
+	 p=fopen("src/text_src/Bitwise_Operators.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);

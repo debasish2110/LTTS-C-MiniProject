@@ -19,7 +19,7 @@ void The_C_Character_Set()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("The_C_Character_Set.txt","r");
+	 p=fopen("src/text_src/The_C_Character_Set.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -45,7 +45,7 @@ void The_C_Character_Set()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Type_of_Tokens.txt","r");
+	 p=fopen("src/text_src/Type_of_Tokens.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -71,7 +71,7 @@ void The_C_Character_Set()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Identifiers.txt","r");
+	 p=fopen("src/text_src/Identifiers.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -97,7 +97,7 @@ void The_C_Character_Set()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Data_Type.txt","r");
+	 p=fopen("src/text_src/Data_Type.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -124,7 +124,7 @@ void The_C_Character_Set()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Declaring_Variable.txt","r");
+	 p=fopen("src/text_src/Declaring_Variable.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);

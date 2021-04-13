@@ -17,7 +17,7 @@ void Array_Declaration()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("text_src/Array_Declaration.txt","r");
+	 p=fopen("src/text_src/Array_Declaration.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -42,7 +42,7 @@ void Array_Declaration()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("text_src/Array_Initialization.txt","r");
+	 p=fopen("src/text_src/Array_Initialization.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -67,7 +67,7 @@ void Array_Declaration()
 	  system("cls");
    	  FILE *p;
 	  char a[500];
-	 p=fopen("text_src/Array_Terminology.txt","r");
+	 p=fopen("src/text_src/Array_Terminology.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -94,7 +94,7 @@ void Array_Declaration()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("text_src/One_Dimensional_Array.txt","r");
+	 p=fopen("src/text_src/One_Dimensional_Array.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -136,7 +136,7 @@ void Array_Declaration()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("text_src/Two_Dimensional_Array.txt","r");
+	 p=fopen("src/text_src/Two_Dimensional_Array.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);

@@ -16,7 +16,7 @@ void Declaration_and_Initialization_of_Strings()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Declaration_and_Initialization_of_Strings.txt","r");
+	 p=fopen("src/text_src/Declaration_and_Initialization_of_Strings.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -41,7 +41,7 @@ void Declaration_and_Initialization_of_Strings()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("String_Standard_Functions.txt","r");
+	 p=fopen("src/text_src/String_Standard_Functions.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -66,7 +66,7 @@ void Declaration_and_Initialization_of_Strings()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Applications_of_Strings.txt","r");
+	 p=fopen("src/text_src/Applications_of_Strings.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);

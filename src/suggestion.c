@@ -9,7 +9,7 @@ int Suggestion_in_Introduction()
 {
 	FILE *p;
 	char c;
-	p=fopen("Suggestion_in_Introduction.txt","a");
+	p=fopen("src/text_src/Suggestion_in_Introduction.txt","a");
 	while(c!='.')
 	{
 		c=getche();
@@ -17,7 +17,7 @@ int Suggestion_in_Introduction()
 	}
 	fclose(p);
 	printf("\n\nSuggestion by user in Introduction\n\n");
-	p=fopen("Suggestion_in_Introduction.txt","r+");
+	p=fopen("src/text_src/Suggestion_in_Introduction.txt","r+");
 	while(!feof(p))
 	{
 		printf("%c",fgetc(p));
@@ -29,7 +29,7 @@ int Suggestion_in_C_Declaration()
 {
 	FILE *p;
 	char c;
-	p=fopen("Suggestion_in_C_Declaration.txt","a");
+	p=fopen("src/text_src/Suggestion_in_C_Declaration.txt","a");
 		while(c!='.')
 	{
 		c=getche();
@@ -37,7 +37,7 @@ int Suggestion_in_C_Declaration()
 	}
 	fclose(p);
 	printf("\n\nSuggestion by user in C Declaration\n\n");
-	p=fopen("Suggestion_in_C_Declaration.txt","r+");
+	p=fopen("src/text_src/Suggestion_in_C_Declaration.txt","r+");
 	while(!feof(p))
 	{
 		printf("%c",fgetc(p));
@@ -49,7 +49,7 @@ int Suggestion_in_Input_and_Output()
 {
 	FILE *p;
 	char c;
-	p=fopen("Suggestion_in_Input_and_Output.txt","a");
+	p=fopen("src/text_src/Suggestion_in_Input_and_Output.txt","a");
 	while(c!='.')
 	{
 		c=getche();
@@ -57,7 +57,7 @@ int Suggestion_in_Input_and_Output()
 	}
 	fclose(p);
 	printf("\n\nSuggestion by user in Input and Output\n\n");
-	p=fopen("Suggestion_in_Input_and_Output.txt","r+");
+	p=fopen("src/text_src/Suggestion_in_Input_and_Output.txt","r+");
 	while(!feof(p))
 	{
 		printf("%c",fgetc(p));
@@ -69,7 +69,7 @@ int Suggestion_in_Operators_and_Expressions()
 {
 	FILE *p;
 	char c;
-	p=fopen("Suggestion_in_Operators_and_Expressions.txt","a");
+	p=fopen("src/text_src/Suggestion_in_Operators_and_Expressions.txt","a");
 	while(c!='.')
 	{
 		c=getche();
@@ -77,7 +77,7 @@ int Suggestion_in_Operators_and_Expressions()
 	}
 	fclose(p);
 	printf("\n\nSuggestion by user Operators and Expressions\n\n");
-	p=fopen("Suggestion_in_Operators_and_Expressions.txt","r+");
+	p=fopen("src/text_src/Suggestion_in_Operators_and_Expressions.txt","r+");
 	while(!feof(p))
 	{
 		printf("%c",fgetc(p));
@@ -88,7 +88,7 @@ int Suggestion_in_Decision_Statements()
 {
 	FILE *p;
 	char c;
-	p=fopen("Suggestion_in_Decision_Statements.txt","a");
+	p=fopen("src/text_src/Suggestion_in_Decision_Statements.txt","a");
 	while(c!='.')
 	{
 		c=getche();
@@ -96,7 +96,7 @@ int Suggestion_in_Decision_Statements()
 	}
 	fclose(p);
 	printf("\n\nSuggestion by user in Decision Statements\n\n");
-	p=fopen("Suggestion_in_Decision_Statements.txt","r+");
+	p=fopen("src/text_src/Suggestion_in_Decision_Statements.txt","r+");
 	while(!feof(p))
 	{
 		printf("%c",fgetc(p));
@@ -107,7 +107,7 @@ int Suggestion_in_Loop()
 {
 	FILE *p;
 	char c;
-	p=fopen("Suggestion_in_Loop.txt","a");
+	p=fopen("src/text_src/Suggestion_in_Loop.txt","a");
 	while(c!='.')
 	{
 		c=getche();
@@ -115,7 +115,7 @@ int Suggestion_in_Loop()
 	}
 	fclose(p);
 	printf("\n\nSuggestion by user in Loop\n\n");
-	p=fopen("Suggestion_in_Loop.txt","r+");
+	p=fopen("src/text_src/Suggestion_in_Loop.txt","r+");
 	while(!feof(p))
 	{
 		printf("%c",fgetc(p));
@@ -126,7 +126,7 @@ int Suggestion_in_Array()
 {
 	FILE *p;
 	char c;
-	p=fopen("Suggestion_in_Array.txt","a");
+	p=fopen("src/text_src/Suggestion_in_Array.txt","a");
 	while(c!='.')
 	{
 		c=getche();
@@ -134,7 +134,7 @@ int Suggestion_in_Array()
 	}
 	fclose(p);
 	printf("\n\nSuggestion by user in Array\n\n");
-	p=fopen("Suggestion_in_Array.txt","r+");
+	p=fopen("src/text_src/Suggestion_in_Array.txt","r+");
 	while(!feof(p))
 	{
 		printf("%c",fgetc(p));
@@ -145,7 +145,7 @@ int Suggestion_in_String()
 {
 	FILE *p;
 	char c;
-	p=fopen("Suggestion_in_String.txt","a");
+	p=fopen("src/text_src/Suggestion_in_String.txt","a");
 	while(c!='.')
 	{
 		c=getche();
@@ -153,7 +153,7 @@ int Suggestion_in_String()
 	}
 	fclose(p);
 	printf("\n\nSuggestion by user in String\n\n");
-	p=fopen("Suggestion_in_String.txt","r+");
+	p=fopen("src/text_src/Suggestion_in_String.txt","r+");
 	while(!feof(p))
 	{
 		printf("%c",fgetc(p));

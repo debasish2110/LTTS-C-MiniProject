@@ -17,7 +17,7 @@ void prgtfcp2();
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("The_First_C_Program.txt","r");
+	 p=fopen("src/text_src/The_First_C_Program.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -58,7 +58,7 @@ void prgtfcp2();
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Header_Files.txt","r");
+	 p=fopen("src/text_src/Header_Files.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -84,7 +84,7 @@ void prgtfcp2();
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Languages_in_C.txt","r");
+	 p=fopen("src/text_src/Languages_in_C.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -110,7 +110,7 @@ void prgtfcp2();
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Advantages_of_C.txt","r");
+	 p=fopen("src/text_src/Advantages_of_C.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);

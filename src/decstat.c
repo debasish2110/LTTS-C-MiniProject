@@ -19,7 +19,7 @@ void prgoiaes();
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("If_and_Else_Statements.txt","r");
+	 p=fopen("src/text_src/If_and_Else_Statements.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -69,7 +69,7 @@ void prgoiaes();
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Break_and_Continue_Statements.txt","r");
+	 p=fopen("src/text_src/Break_and_Continue_Statements.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -142,7 +142,7 @@ void prgoiaes();
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Goto_and_Switch_Statements.txt","r");
+	 p=fopen("src/text_src/Goto_and_Switch_Statements.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);

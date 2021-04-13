@@ -14,7 +14,7 @@ void Formatted_Functions()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Formatted_Functions.txt","r");
+	 p=fopen("src/text_src/Formatted_Functions.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -57,7 +57,7 @@ void Formatted_Functions()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Unformatted_Functions.txt","r");
+	 p=fopen("src/text_src/Unformatted_Functions.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
@@ -83,7 +83,7 @@ void Formatted_Functions()
 	  system("cls");
    	 FILE *p;
 	 char a[500];
-	 p=fopen("Commonly_Used_Library_Functions.txt","r");
+	 p=fopen("src/text_src/Commonly_Used_Library_Functions.txt","r");
 		while(!feof(p))
 		{
 		fgets(a,500,p);
