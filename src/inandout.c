@@ -1,77 +1,102 @@
 #include<stdio.h>
-int func_intro(),funcdef(),retrn(),typefunc(),call();
-int func_intro()
-{
-	FILE *qa;
-	qa=fopen("func intro.txt","r+");
-	if(qa==NULL)
-	{
-		printf("file cant be opened");
+#include<conio.h>
+#include<stdlib.h>
+#include<process.h>
+#include<string.h>
+void Formatted_Functions();
+void Unformatted_Functions();
+void Commonly_Used_Library_Functions();
+void Input_and_Output();
+void Index();
+void prgoff();
+void Formatted_Functions()
+      {
+	  system("cls");
+   	 FILE *p;
+	 char a[500];
+	 p=fopen("Formatted_Functions.txt","r");
+		while(!feof(p))
+		{
+		fgets(a,500,p);
+		printf("%s\n",a);
+		}
+   	 int n;    
+     printf("/npress 0 for chapter outline \n press 1 for next topic \n if you want to run this code so press 2");
+     scanf("%d",&n);
+     if(n==0)
+    {system("cls");
+    	Input_and_Output();
 	}
-	printf("\n\n");
-	while(!feof(qa))
+    else if(n==1)
 	{
-		printf("%c",fgetc(qa));
+		system("cls");
+		Unformatted_Functions();
 	}
-	return 0;
-}
-int funcdef()
-{
-	FILE *qb;
-	qb=fopen("funcdef.txt","r+");
-	if(qb==NULL)
+	else if (n==2)
 	{
-		printf("file cant be opened");
+		system("cls");
+	    prgoff();
 	}
-	printf("\n\n");
-	while(!feof(qb))
+	fclose(p);
+	}//end of formatted functions
+		void prgoff()
+	{	
+  
+  char alphabh ='A';  
+  int number1= 55;  
+  float number2=22.34;  
+  printf("char= %c\n",alphabh);  
+  printf("int= %d\n",number1);  
+  printf("float= %2f\n",number2);
+  printf("press any key for  going to Index");   
+	getch();
+	Index();
+	}
+	void Unformatted_Functions()
+      {
+	  system("cls");
+   	 FILE *p;
+	 char a[500];
+	 p=fopen("Unformatted_Functions.txt","r");
+		while(!feof(p))
+		{
+		fgets(a,500,p);
+		printf("%s\n",a);
+		}
+   	 int n;    
+     printf("/npress 0 for chapter outline \n press 1 for next topic");
+     scanf("%d",&n);
+     if(n==0)
+    {system("cls");
+    	Input_and_Output();
+	}
+    else if(n==1)
 	{
-		printf("%c",fgetc(qb));
+		system("cls");
+		Commonly_Used_Library_Functions();
 	}
-	return 0;
-}
-int retrn()
-{
-	FILE *qc;
-	qc=fopen("retrn.txt","r+");
-	if(qc==NULL)
+	fclose(p);
+	}//end of unformatted functions
+	
+	void Commonly_Used_Library_Functions()
+      {
+	  system("cls");
+   	 FILE *p;
+	 char a[500];
+	 p=fopen("Commonly_Used_Library_Functions.txt","r");
+		while(!feof(p))
+		{
+		fgets(a,500,p);
+		printf("%s\n",a);
+		}int n;    
+     printf("/npress 0 for index");
+     scanf("%d",&n);
+     if (n==0)
 	{
-		printf("file cant be opened");
+		system("cls");
+		Index();
 	}
-	printf("\n\n");
-	while(!feof(qc))
-	{
-		printf("%c",fgetc(qc));
+	fclose(p);
 	}
-	return 0;
-}
-int typefunc()
-{
-	FILE *qd;
-	qd=fopen("typefunc.txt","r+");
-	if(qd==NULL)
-	{
-		printf("file cant be opened");
-	}
-	printf("\n\n");
-	while(!feof(qd))
-	{
-		printf("%c",fgetc(qd));
-	}
-	return 0;
-}
-int call()
-{
-	FILE *qe;
-	qe=fopen("call.txt","r+");
-	if(qe==NULL)
-	{
-		printf("file cant be opened");
-	}
-	printf("\n\n");
-	while(!feof(qe))
-	{
-		printf("%c",fgetc(qe));
-	}
-	return 0;
-}
+   	 //end of commonly used library functions                         //end of input and output
+	
