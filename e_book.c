@@ -10,18 +10,9 @@
 #include"src/loops.c"
 #include"src/array.c"
 #include"src/string.c"
+
 #include"inc/myHeader.h"
-void Cover_Page();
-void Index();
-void Introduction();
-void C_Declaration();
-void Operators_and_Expressions();
-void Input_and_Output();
-void Decision_Statements();
-void Loops();
-void Array();
-void String();
-void Suggestion();
+
 void main()                                                   // starting of main
 {
 	system("color 0A");
