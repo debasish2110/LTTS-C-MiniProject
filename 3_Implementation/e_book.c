@@ -16,6 +16,7 @@
 void main()                                                   // starting of main
 {
 	system("color 0A");
+	system("cls");
 	int choice;
 	printf("\n 1 for Cover Page");
 	printf("\n 2 for Index");
