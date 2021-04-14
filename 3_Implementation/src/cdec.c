@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<process.h>
+//#include<process.h>
 #include<string.h>
 
 void The_C_Character_Set();

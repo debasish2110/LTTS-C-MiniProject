@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<process.h>
+//#include<process.h>
 #include<string.h>
 #include<stdlib.h>
 int Suggestion_in_Introduction(),Suggestion_in_C_Declaration(),Suggestion_in_Input_and_Output(),Suggestion_in_Operators_and_Expressions();

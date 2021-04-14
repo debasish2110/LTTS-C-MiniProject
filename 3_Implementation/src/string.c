@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<process.h>
+//#include<process.h>
 #include<string.h>
 void Declaration_and_Initialization_of_Strings();
 void String_Standard_Functions();

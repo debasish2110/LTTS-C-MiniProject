@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<process.h>
+//#include<process.h>
 #include<string.h>
 #define SIZE 10
 void If_and_Else_Statements();
