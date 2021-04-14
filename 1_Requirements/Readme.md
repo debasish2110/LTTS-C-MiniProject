@@ -12,7 +12,7 @@
 ## Defining Our System
     -- TBD
 ## SWOT ANALYSIS
-![image]()
+![image](https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/1_Requirements/SWOT%20analysis.png)
 
 # 4W&#39;s and 1&#39;H
 
