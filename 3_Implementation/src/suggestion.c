@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<process.h>
 #include<string.h>
 #include<stdlib.h>

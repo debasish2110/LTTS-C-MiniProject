@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 
 void passbyrefrence(int *x);
 void callbyvalue(int x);
