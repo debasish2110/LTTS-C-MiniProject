@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include"src/Suggestion.c"
+#include"src/suggestion.c"
 #include"src/intro.c"
 #include"src/cdec.c"
 #include"src/operandexp.c"
