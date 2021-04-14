@@ -13,66 +13,66 @@
 #define _MYFUNCH_
 
 /**
- * @brief 
+ * @brief it will print the cover page after taking userinput
  * 
  */
 void Cover_Page();
 
 /**
- * @brief 
+ * @brief it will print the index page after taking userinput
  * 
  */
 void Index();
 
 /**
- * @brief 
+ * @brief it will print the introduction part of the e book.
  * 
  */
 void Introduction();
 
 /**
- * @brief 
+ * @brief it will print the contents of the declaration part of c programming.
  * 
  */
 void C_Declaration();
 
 /**
- * @brief 
+ * @brief it will print the contents of operators and expressions.
  * 
  */
 void Operators_and_Expressions();
 
 /**
- * @brief 
+ * @brief it will print the contents of input and output.
  * 
  */
 void Input_and_Output();
 
 /**
- * @brief 
+ * @brief it will print the contets of Decision statements of c language.
  * 
  */
 void Decision_Statements();
 
 /**
- * @brief 
+ * @brief it will print the contents of loops.
  * 
  */
 void Loops();
 
 /**
- * @brief 
+ * @brief it will print the contents of Array.
  * 
  */
 void Array();
 
 /**
- * @brief 
+ * @brief it will print the contents of String.
  * 
  */
 void String();
 /**
- * @brief 
+ * @brief it will print the contents of Suggestion.
  * 
  */
 void Suggestion();
