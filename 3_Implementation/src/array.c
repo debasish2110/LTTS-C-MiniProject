@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 //#include<process.h>
-#include<process.h>
+//#include<process.h>
 void Array_Declaration();
 void Array_Initialization();
 void Array_Terminology();
@@ -126,9 +126,11 @@ void Array_Declaration()
 	printf("Array elements are \n");
 	for(i=0;i<5;i++)
 	printf("%d\n",numbers[i]);
-	printf("\npress any key for going to Index");
-	getch();
-	Index();
+	printf("\n\npress i for going to Index");
+   char c;
+    if(scanf("%c",&c)=='i'){
+   		Index();
+   }
 	}
 	void  Two_Dimensional_Array()
       {
@@ -177,8 +179,9 @@ void Array_Declaration()
             printf("\n");
          }
       }
-   }	printf("\npress any key for going to Index");
-	getch();
-	Index();
- 
+   }	printf("\n\npress i for going to Index");
+   char c;
+    if(scanf("%c",&c)=='i'){
+   		Index();
+   }
 	}

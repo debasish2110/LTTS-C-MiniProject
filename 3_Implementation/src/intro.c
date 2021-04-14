@@ -49,8 +49,10 @@ void prgtfcp2();
 	{
 	     printf("hello! C Programmers");
 	     printf("\n\npress any key for going to Index");
-   getch();
-   Index();
+   char i;
+    if(scanf("%c",&i)=='i'){
+   		Index();
+   }
 	 }
 	void Header_Files()
       {

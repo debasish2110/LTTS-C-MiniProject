@@ -129,9 +129,11 @@ void Declaration_and_Initialization_of_Strings()
     else
         printf("%s is not a palindrome \n", string);
         
-        printf("\n\nPress any key for going to Index ");
-        getch();
-    Index();
+        printf("\n\npress i for going to Index");
+   char c;
+    if(scanf("%c",&c)=='i'){
+   		Index();
+   }
 	}
 	
 	

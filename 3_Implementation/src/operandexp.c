@@ -72,8 +72,10 @@ void Arithmetic_Operators()
    c = a--; 
    printf("Line 7 - Value of c is %d\n", c );
    printf("press any key for going to Index\n\n");
-   getch();
-   Index();
+   char i;
+    if(scanf("%c",&i)=='i'){
+   		Index();
+   }
 }
 	
 	void Relational_Operators()
@@ -143,8 +145,10 @@ void Arithmetic_Operators()
        if ( b >= a ) {
        printf("Line 5 - b is either greater than  or equal to b\n" );
        }printf("press any key for going to Index\n\n");
-   getch();
-   Index();
+   char i;
+    if(scanf("%c",&i)=='i'){
+   		Index();
+   }
 	}
 	
 	void Logical_Operators()
@@ -204,8 +208,10 @@ void Arithmetic_Operators()
    if ( !(a && b) ) {
       printf("Line 4 - Condition is true\n" );
    } printf("press any key for going to Index\n\n");
-   getch();
-   Index();
+   char i;
+    if(scanf("%c",&i)=='i'){
+   		Index();
+   }
 
 	}
 	
@@ -263,8 +269,10 @@ void Arithmetic_Operators()
    c = a >> 2;     /* 15 = 0000 1111 */
    printf("Line 6 - Value of c is %d\n", c );
     printf("press any key for going to Index\n\n");
-   getch();
-   Index();
+   char i;
+    if(scanf("%c",&i)=='i'){
+   		Index();
+   }
    }
    
    									

@@ -92,7 +92,7 @@ void main()                                                   // starting of mai
                 printf("\nTHank You");
 				break;
 				default:printf("invalid input");
-				getch();
+				//getch();
 				Index();
 			}       //end of switch
 fclose(p);			

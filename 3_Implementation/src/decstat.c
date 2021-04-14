@@ -59,9 +59,11 @@ void prgoiaes();
       printf("a is not less than 20\n" );
       }
         printf("value of a is : %d\n", a);
-      printf("\n\npress any key for going to Index");
-   getch();
-   Index();
+      printf("\n\npress i for going to Index");
+   char c;
+    if(scanf("%c",&c)=='i'){
+   		Index();
+   }
  	}
 	void Break_and_Continue_Statements()
       {
@@ -109,9 +111,11 @@ void prgoiaes();
           break;
    }
    printf("Goodbye!\n");
-   printf("\n\npress any key for going to Index");
-   getch();
-   Index();
+  printf("\n\npress i for going to Index");
+   char c;
+    if(scanf("%c",&c)=='i'){
+   		Index();
+   }
    }
    
    void prgobac2()
@@ -129,9 +133,11 @@ void prgoiaes();
             continue;
         }
         printf("Number %d found at position %d\n", needle,i);
-        printf("\n\npress any key for going to Index");
-        getch();
-        Index();
+        printf("\n\npress i for going to Index");
+   char c;
+    if(scanf("%c",&c)=='i'){
+   		Index();
+   }
 
     }
 }
@@ -191,9 +197,11 @@ void prgogass1()
     average=sum/(i-1);
     printf("Sum = %.2f\n", sum);
     printf("Average = %.2f", average);
-    printf("\n\npress any key for going to Index");
-   getch();
-   Index();
+    printf("\n\npress i for going to Index");
+   char c;
+    if(scanf("%c",&c)=='i'){
+   		Index();
+   }
 
 
 }
@@ -228,9 +236,11 @@ void prgogass1()
         // operator is doesn't match any case constant (+, -, *, /)
         default:
             printf("Error! operator is not correct");
-            printf("\n\npress any key for going to Index");
-   getch();
-   Index();
+            printf("\n\npress i for going to Index");
+   char c;
+    if(scanf("%c",&c)=='i'){
+   		Index();
+   }
 
     }
     

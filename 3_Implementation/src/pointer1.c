@@ -13,6 +13,6 @@ int main()
 	   *pshivam=8828;
 	   printf(" *pshivam = %d" , *pshivam);
 	   printf(" shivam = %d" , shivam);
-getch();	                                                 
+//getch();	                                                 
 }                   
                                  

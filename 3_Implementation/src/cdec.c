@@ -167,7 +167,9 @@ void The_C_Character_Set()
    f = 70.0/3.0;
    printf("value of f : %f \n", f);
    printf("press any key for going to Index");
-   getch();
-   Index();
+   char i;
+    if(scanf("%c",&i)=='i'){
+   		Index();
+   }
 }
 }

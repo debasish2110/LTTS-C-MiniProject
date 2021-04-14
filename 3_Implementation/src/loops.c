@@ -44,9 +44,11 @@ void For_and_Nested_For_loop()
     /* for loop execution */
    for( a = 10; a < 20; a = a + 1 ){
       printf("value of a: %d\n", a);
-   }printf("press any key for going to Index");
-   getch();
-   Index();
+   }printf("press i for going to Index");
+   char i;
+   if(scanf("%c",&i)=='i'){
+   		Index();
+   }
 }
 	void While_and_Do_While_loop()
       {

@@ -11,7 +11,7 @@ int Suggestion_in_Introduction()
 	p=fopen("src/text_src/Suggestion_in_Introduction.txt","a");
 	while(c!='.')
 	{
-		c=getche();
+		scanf("%c", &c);
 		fputc(c,p);
 	}
 	fclose(p);
@@ -31,7 +31,7 @@ int Suggestion_in_C_Declaration()
 	p=fopen("src/text_src/Suggestion_in_C_Declaration.txt","a");
 		while(c!='.')
 	{
-		c=getche();
+		scanf("%c", &c);
 		fputc(c,p);
 	}
 	fclose(p);
@@ -51,7 +51,7 @@ int Suggestion_in_Input_and_Output()
 	p=fopen("src/text_src/Suggestion_in_Input_and_Output.txt","a");
 	while(c!='.')
 	{
-		c=getche();
+		scanf("%c", &c);
 		fputc(c,p);
 	}
 	fclose(p);
@@ -71,7 +71,7 @@ int Suggestion_in_Operators_and_Expressions()
 	p=fopen("src/text_src/Suggestion_in_Operators_and_Expressions.txt","a");
 	while(c!='.')
 	{
-		c=getche();
+		scanf("%c", &c);
 		fputc(c,p);
 	}
 	fclose(p);
@@ -90,7 +90,7 @@ int Suggestion_in_Decision_Statements()
 	p=fopen("src/text_src/Suggestion_in_Decision_Statements.txt","a");
 	while(c!='.')
 	{
-		c=getche();
+		scanf("%c", &c);
 		fputc(c,p);
 	}
 	fclose(p);
@@ -109,7 +109,7 @@ int Suggestion_in_Loop()
 	p=fopen("src/text_src/Suggestion_in_Loop.txt","a");
 	while(c!='.')
 	{
-		c=getche();
+		scanf("%c", &c);
 		fputc(c,p);
 	}
 	fclose(p);
@@ -128,7 +128,7 @@ int Suggestion_in_Array()
 	p=fopen("src/text_src/Suggestion_in_Array.txt","a");
 	while(c!='.')
 	{
-		c=getche();
+		scanf("%c", &c);
 		fputc(c,p);
 	}
 	fclose(p);
@@ -147,7 +147,7 @@ int Suggestion_in_String()
 	p=fopen("src/text_src/Suggestion_in_String.txt","a");
 	while(c!='.')
 	{
-		c=getche();
+		scanf("%c", &c);
 		fputc(c,p);
 	}
 	fclose(p);

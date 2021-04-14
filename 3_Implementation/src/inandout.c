@@ -48,8 +48,10 @@ void Formatted_Functions()
   printf("int= %d\n",number1);  
   printf("float= %2f\n",number2);
   printf("press any key for  going to Index");   
-	getch();
-	Index();
+	char i;
+    if(scanf("%c",&i)=='i'){
+   		Index();
+   }
 	}
 	void Unformatted_Functions()
       {
