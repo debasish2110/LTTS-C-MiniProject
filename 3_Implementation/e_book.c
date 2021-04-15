@@ -9,7 +9,10 @@
 #include"src/loops.c"
 #include"src/array.c"
 #include"src/string.c"
+
+
 //including the functions used in main function.
+
 #include"inc/myHeader.h"
 
 void main()                                                   // starting of main
