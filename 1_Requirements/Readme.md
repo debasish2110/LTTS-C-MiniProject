@@ -10,10 +10,16 @@
 <img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/1_Requirements/File-functions.jpg" width="920" height="520">
 
 ## Cost and Features
+* This project has various features, like it can provide contents on c programming concepts to the user. 
+* User can also run the given sample codes and try it by themslef. which is a big plus point for this project.
+* users have option also option to give their valuable suggestions in or platform. 
+#### above features are given in the below screenshot. 
 <img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/1_Requirements/index.png" width="1080" height="720">
 
 ## Defining Our System
-    -- TBD
+* System bacically takes input from the user and checks for the file, and then it prints the file.
+for ruunig the code it checks for the available code and run it in the compiler i.e GCC and prints the output
+* for the suggestion part it takes suggestion from user and stores it in a file.
 <img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/1_Requirements/system%20definition.png" width="780" height="520">
 
 ## SWOT ANALYSIS
