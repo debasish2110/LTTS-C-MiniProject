@@ -14,7 +14,7 @@
 -- Content 
 ## Defining Our System
     -- TBD
-<img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/1_Requirements/system%20definition.png" width="1080" height="720">
+<img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/1_Requirements/system%20definition.png" width="780" height="720">
 
 ## SWOT ANALYSIS
 ![image](https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/1_Requirements/SWOT%20analysis.png)
