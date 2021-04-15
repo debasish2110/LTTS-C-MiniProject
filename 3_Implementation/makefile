@@ -22,6 +22,7 @@ INC = -Iinc\
 -Iunity\
 -Isrc
 
+DOCUMENTATION_OUTPUT = documentation/html
 #To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
 ifdef OS
    RM = del /q
@@ -54,9 +55,9 @@ coverage:${PROJECT_NAME}
 	gcov -a $(SRC)
 
 doc:
-	make -C doc
-$(BUILD_DIR):
+	make -C doc $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
+
 
 clean:
 	$(RM) $(call FixPath,$(BUILD_DIR)/*)
