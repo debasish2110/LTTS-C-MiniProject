@@ -9,7 +9,6 @@ Folder        | description
 `Screenshots` | Screenshots of the applications are present here.
 
 ## code output
--------------------------
 
 ### start page
 -------------------------
