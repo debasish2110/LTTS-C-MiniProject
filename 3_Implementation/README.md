@@ -13,13 +13,16 @@ Folder        | description
 -------------------------
 
 ### start page
+-------------------------
 
 <img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/3_Implementation/screenshots/start.png" width="920" height="520">
 
 ### coverpage of the E-Book
+----------------------------
 
 <img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/3_Implementation/screenshots/coverpage.png" width="920" height="520">
 
 ### Index page of the E-book
- 
+-----------------------------
+
 <img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/3_Implementation/screenshots/index.png" width="920" height="520">
