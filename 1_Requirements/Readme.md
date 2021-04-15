@@ -29,30 +29,41 @@ for ruunig the code it checks for the available code and run it in the compiler 
 
 ## Who:
 
-**TBD**
+* All the tech newbie who wants to step into c programming world.
 
 ## What:
 
-**TBD**
+* Digital book or electronic book, that provies information about c programming.
 
 ## When:
 
-**TBD**
+* During the ltts step-In training, this is the final project assessment and development started on 6th of april.
 
 ## Where:
 
-**TBD**
+* This can be used in all over the globe. any student/working professional of any age can use it.
 
 ## How:
 
-**TBD**
+* users can use this code to enhance their c knowledge.
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+
+| ID | Description | Status (Implemented/Future)
+|:---:|:---:|:---:|
+|HLR-1| User shall be able to move to cover page and index page. |Implemented|
+|HLR-2| System output must display the contents of the file. |Implemented|
+|HLR-3| user shall be able to execute the sample codes. |Implemented|
+|HLR-4| user shall be able to give suggestion. |Implemented|
+|HLR-5| user shall be able to write their own code and execute. |Future|
+|HLR-6| user shall be able to access a learning leader board. |Future|
 
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+
+| ID | Description | Status (Implemented/Future)
+|:---:|:---:|:---:|
+|LLR-1| User shall be able to read the text files. |Implemented|
+|LLR-2| User shall be able to create their account. |Future|
+|LLR-3| User should be able to manage their data. |Future|
