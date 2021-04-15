@@ -2,8 +2,8 @@
 
 Visit [Pages for Report -optional](using github.io option)
 
-Build | Code Quality | Unity | [Git Inspector](using github.io option)
-----------|----------|-------|--------------
+Build | Code Quality | [Git Inspector](using github.io option)
+--------------|--------------|--------------
 [![C/C++ CI](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/c-cpp.yml) | [![Static Cppcheck](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/cppcheck.yml)| [![Git Inspector](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/gitinspector.yml)
 
 
