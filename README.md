@@ -19,15 +19,14 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`ABC` | 12345678  | Feature A, B etc    | X No     | X No   |X No   |X No     
-`DEF` | 12345678  | Feature C, D etc    | X No     | X No   |X No   |X No     
+265957 | Debashish  | User Input, content displaying, suggestion, sample code compilation | X No     | X No   | 1  | 1        
 
 ## Challenges Faced and How Was It Overcome
 
-1. ABC
-2. BCD
-3. ...
-4. ...
+1. During cpp-check, online resources helped a lot. 
+2. as most of the functions used contains othes function calls in them and required user input so unit test couldnt properly done in most of the functions.
+3. while running the multiple files. Make file helped a lot to resolve this.
+4. over all stack overflow helped a lot in resolving issues during this project.
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
