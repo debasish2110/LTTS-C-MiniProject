@@ -13,7 +13,7 @@
 * This project has various features, like it can provide contents on c programming concepts to the user. 
 * User can also run the given sample codes and try it by themslef. which is a big plus point for this project.
 * users have option also option to give their valuable suggestions in or platform. 
-#### above features are given in the below screenshot. 
+#### above features are shown in the below screenshot. 
 <img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/1_Requirements/index.png" width="1080" height="720">
 
 ## Defining Our System
