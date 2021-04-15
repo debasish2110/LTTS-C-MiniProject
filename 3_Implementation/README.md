@@ -8,3 +8,11 @@ Folder        | description
 `test`        | All source code and data for testing purposes
 `build`       | Build output (Not included in git)
 `Screenshots` | Screenshots of the applications are present here.
+
+## code output
+
+<img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/3_Implementation/screenshots/start.png" width="920" height="520">
+
+<img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/3_Implementation/screenshots/coverpage.png" width="920" height="520">
+
+<img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/3_Implementation/screenshots/index.png" width="920" height="520">
