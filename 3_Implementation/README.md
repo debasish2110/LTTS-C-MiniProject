@@ -4,6 +4,6 @@
 Folder        | description
 --------------| ----------------------------------------------
 `inc`         | All header files
-`src`         | Main source code for calculator
+`src`         | All the source codes required for the code
 `test`        | All source code and data for testing purposes
 `build`       | Build output (Not included in git)
