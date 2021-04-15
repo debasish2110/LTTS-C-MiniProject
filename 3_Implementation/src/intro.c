@@ -7,7 +7,7 @@ void Header_Files();
 void Languages_in_C();
 void Advantages_of_C();
 void Introduction();
-void Index();
+int Index();
 void prgtfcp1();
 void prgtfcp2();
  

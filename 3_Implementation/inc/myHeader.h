@@ -16,13 +16,13 @@
  * @brief it will print the cover page after taking userinput
  * 
  */
-void Cover_Page();
+int Cover_Page();
 
 /**
  * @brief it will print the index page after taking userinput
  * 
  */
-void Index();
+int Index();
 
 /**
  * @brief it will print the introduction part of the e book.

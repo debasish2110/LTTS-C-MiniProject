@@ -7,7 +7,7 @@ void If_and_Else_Statements();
 void Break_and_Continue_Statements();
 void Goto_and_Switch_Statements();
 void Decision_Statements();
-void Index();
+int Index();
 void prgobac1();
 void prgobac2();
 void prgogass1();

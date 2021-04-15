@@ -7,7 +7,7 @@ void Array_Initialization();
 void Array_Terminology();
 void One_Dimensional_Array();
 void Two_Dimensional_Array();  
-void Index();
+int Index();
 void Array();
 void prgotda();
 void prgooda();

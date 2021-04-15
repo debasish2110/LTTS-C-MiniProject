@@ -8,7 +8,7 @@ void Relational_Operators();
 void Logical_Operators();
 void Bitwise_Operators();
 void Operators_and_Expressions();
-void Index();
+int Index();
 void prgoao();
 void prgobo();
 void prgolo();

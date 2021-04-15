@@ -9,7 +9,7 @@ void Data_Type();
 void Identifiers();
 void Declaring_Variable();
 void C_Declaration();
-void Index();
+int Index();
 void prgodv();
 
 void The_C_Character_Set()

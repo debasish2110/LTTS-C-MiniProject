@@ -14,8 +14,9 @@ TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 BUILD_DIR = Build
 
-TEST_SRC = test_main.c\
-unity/unity.c
+TEST_SRC = test.c\
+unity/unity.c\
+cover_page.c
 
 INC = -Iinc\
 -Iunity\

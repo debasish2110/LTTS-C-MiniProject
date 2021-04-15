@@ -4,7 +4,7 @@
 #include<string.h>
 void For_and_Nested_For_loop();
 void While_and_Do_While_loop();
-void Index();
+int Index();
 void Loops();
 void prgofanfl();
 void For_and_Nested_For_loop()

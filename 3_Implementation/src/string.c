@@ -5,7 +5,7 @@
 void Declaration_and_Initialization_of_Strings();
 void String_Standard_Functions();
 void Applications_of_Strings();
-void Index();
+int Index();
 void String();
 void prgoaos();
 void String();

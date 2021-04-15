@@ -6,7 +6,7 @@ void Formatted_Functions();
 void Unformatted_Functions();
 void Commonly_Used_Library_Functions();
 void Input_and_Output();
-void Index();
+int Index();
 void prgoff();
 void Formatted_Functions()
       {

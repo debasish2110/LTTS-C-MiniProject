@@ -32,9 +32,8 @@ void main()                                                   // starting of mai
 	    break;
 	    default: printf("invalid input");
 	}//end of switch
-   }                                                  //end of main
-      
-	  void Cover_Page()                          // starting of cover page
+   }                                                 //end of main  
+	  int Cover_Page()                          // starting of cover page
       {
 	  system("cls");
       FILE *p;
@@ -46,19 +45,16 @@ void main()                                                   // starting of mai
 		printf("%s\n",a);
 		}
 	int n;
-	printf("going proceed press 1\n for going back press 2");
+	printf("going proceed press to index page: 1 : ");
 	scanf("%d",&n);
-	if(n==2)
-		{system("cls");
-		main();
-		}
-	else if(n==1)
+	if(n==1)
 		{system("cls");
 		Index();
 		}
 	fclose(p);
-    }                                                        //end of cover page
-         void Index()                                       //starting of index
+	return 0;
+    }                                                      //end of cover page
+    int Index()                                       //starting of index
     {
     	system("cls");
     	FILE *p;
@@ -98,7 +94,8 @@ void main()                                                   // starting of mai
 				//getch();
 				Index();
 			}       //end of switch
-fclose(p);			
+fclose(p);
+return 0;			
 }                                                              //end of index function
 			void Introduction()                               //starting of introduction
  			      {
