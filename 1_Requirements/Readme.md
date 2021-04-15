@@ -10,7 +10,7 @@
 <img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/1_Requirements/File-functions.jpg" width="920" height="520">
 
 ## Cost and Features
-<img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/1_Requirements/File-functions.jpg" width="520" height="520">  <img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/1_Requirements/File-functions.jpg" width="520" height="520">  <img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/1_Requirements/File-functions.jpg" width="520" height="520">
+<img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/1_Requirements/start.png" width="520" height="520">  <img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/1_Requirements/coverpage.png" width="520" height="520">  <img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/1_Requirements/index.png" width="520" height="520">
 
 ## Defining Our System
     -- TBD
