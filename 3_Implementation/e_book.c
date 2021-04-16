@@ -45,7 +45,7 @@ void main()                                                   // starting of mai
 		printf("%s\n",a);
 		}
 	int n;
-	printf("going proceed press to index page: 1 : ");
+	printf("going proceed press 1 for index page: ");
 	scanf("%d",&n);
 	if(n==1)
 		{system("cls");

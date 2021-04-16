@@ -77,4 +77,9 @@ void String();
  */
 void Suggestion();
 
+int my_test(int a, int b);
+int my_test(int a, int b){
+	return a+b;
+}
+
 #endif
