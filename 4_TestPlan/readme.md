@@ -17,10 +17,16 @@
 
 ## Screen shots
 ---------------------
+
+### unit testing output
 <img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/4_TestPlan/test%20output.png" width="1020" height="620">
 
 ----------------------------------
+
+### example code which the user can run and test by their own.
 <img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/4_TestPlan/demo%20code.png" width="1020" height="620">
 
 ----------------------------------
+
+### index page. from here the user can go to different topics.
 <img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/4_TestPlan/index.png" width="1020" height="620">
