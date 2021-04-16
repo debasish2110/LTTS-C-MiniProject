@@ -2,9 +2,9 @@
 
 Visit [Pages for Report -optional](using github.io option)
 
-Build | Code Quality | [Git Inspector](using github.io option)
+Build | Code Quality | Unity |[Git Inspector](using github.io option)
 --------------|--------------|--------------
-[![C/C++ CI](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/c-cpp.yml) | [![Static Cppcheck](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/cppcheck.yml)| [![Git Inspector](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/gitinspector.yml)
+[![C/C++ CI](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/c-cpp.yml) | [![Static Cppcheck](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/cppcheck.yml) [![Dynamic Valgrind](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/CodeQuality_Dynamic.yml)| [![Unity - Unit Testing](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/unity.yml/badge.svg)](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/unity.yml) | [![Git Inspector](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/debasish2110/LTTS-C-MiniProject/actions/workflows/gitinspector.yml)
 
 
 ## Folder Structure
@@ -19,7 +19,7 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-265957 | Debashish  | User Input, content displaying, suggestion, sample code compilation |  3  |  3  | 3  | 3        
+265957 | Debashish  | User Input, content displaying, suggestion, sample code compilation |  5  |  4  | 3  | 3        
 
 ## Challenges Faced and How Was It Overcome
 
