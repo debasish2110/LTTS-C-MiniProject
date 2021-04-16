@@ -14,3 +14,9 @@
 | **Test ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
 |  L_01       | is the user able to get into the contents | 1-9 | respective topic | respective topic|Requirement based |
+
+## Screen shots
+---------------------
+<img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/4_TestPlan/test%20output.png" width="920" height="520">
+<img src="" width="920" height="520">
+<img src="" width="920" height="520">
