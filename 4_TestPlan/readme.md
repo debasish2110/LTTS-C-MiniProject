@@ -17,6 +17,10 @@
 
 ## Screen shots
 ---------------------
-<img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/4_TestPlan/test%20output.png" width="920" height="520">
-<img src="" width="920" height="520">
-<img src="" width="920" height="520">
+<img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/4_TestPlan/test%20output.png" width="1020" height="620">
+
+----------------------------------
+<img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/4_TestPlan/demo%20code.png" width="1020" height="620">
+
+----------------------------------
+<img src="https://github.com/debasish2110/LTTS-C-MiniProject/blob/master/4_TestPlan/index.png" width="1020" height="620">
