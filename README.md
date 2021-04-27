@@ -19,7 +19,7 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-265957 | Debashish  | User Input, content displaying, suggestion, sample code compilation |  5  |  4  | 3  | 3        
+265057 | Debashish  | User Input, content displaying, suggestion, sample code compilation |  5  |  4  | 3  | 3        
 
 ## Challenges Faced and How Was It Overcome
 
